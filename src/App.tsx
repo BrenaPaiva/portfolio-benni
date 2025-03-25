@@ -6,11 +6,11 @@ import Projects from "./components/projects"
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Header />
       <Home />
-      <AboutMe />
       <Stacks />
+      <AboutMe />
       <Projects />
     </div>
   )

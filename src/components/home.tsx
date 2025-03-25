@@ -20,7 +20,7 @@ const Home = () => {
               Sobre mim
             </button>
             <button className="bg-gradient-to-r from-[#C961DE] to-[#2954A3]  text-white py-3 px-6 rounded-full ">
-              Download CV
+              Garanta sua vaga
             </button>
 
           </div>
@@ -36,37 +36,6 @@ const Home = () => {
 
 
       </div>
-
-
-      {/* Círculo à esquerda */}
-      {/* <div className="absolute top-10 left-8 bg-green-800">
-        <img src={circles} alt="Circles" className="w-64" />
-      </div> */}
-
-      {/* Texto e botões */}
-      {/* <div className="relative z-10 text-center text-white bg-pink-600">
-        <p className="text-4xl font-semibold mb-6">
-          Olá, meu nome é Brena. Mas pode me chamar de Benni.
-        </p>
-        <div className="flex justify-center space-x-4">
-          <button className="bg-gray-600 text-white py-3 px-6 rounded-full">
-            Sobre mim
-          </button>
-          <button className="bg-[#1D72C2] text-white py-3 px-6 rounded-full">
-            Download CV
-          </button>
-        </div>
-      </div> */}
-
-      {/* Imagem do perfil à direita, maior */}
-      {/* <div className="absolute right-64 top-1 h-5/6 w-auto bg-orange-400">
-        <img
-          src={img}
-          alt="Perfil"
-          className="w-full h-full object-cover mr-3"
-        />
-      </div> */}
-
     </div >
   );
 };
