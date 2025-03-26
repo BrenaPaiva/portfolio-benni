@@ -1,7 +1,17 @@
 import circles from '../assets/circletop.svg';
 import img from '../assets/img.svg';
+import { useState, useEffect } from "react";
 
 const Home = () => {
+  const [showSecondLine, setShowSecondLine] = useState(false);
+
+  useEffect(() => {
+    const typingDuration = 4000; // Tempo da animação de digitação (4s)
+
+    setTimeout(() => {
+      setShowSecondLine(true);
+    }, typingDuration);
+  }, []);
   return (
     <div className="flex justify-center h-full w-full">
       <div className="flex ">
@@ -13,7 +23,54 @@ const Home = () => {
         {/* Texto e botões */}
         <div className="bg-purple- text-white w-96 h-96 flex flex-col items-center justify-center">
           <p className="text-4xl font-semibold mb-6 text-center">
-            Olá, meu nome é Brena. Mas pode me chamar de Benni.
+            <span className="typing-effect">Olá, meu nome é Brena. :)</span>
+            {showSecondLine && (
+              <span className="fade-in font-normal"> Mas pode me chamar de Benni</span>
+            )}
+            <style jsx>{`
+              .fade-in {
+              opacity: 0;
+              animation: fadeIn 2s forwards;
+              }
+
+              @keyframes fadeIn {
+              from {
+                opacity: 0;
+              }
+              to {
+                opacity: 1;
+              }
+              }
+            `}</style>
+
+            <style jsx>{`
+        .typing-effect {
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          animation: typing 4s steps(40, end), blink 0.5s step-end infinite;
+          border-right: 2px solid;
+        }
+
+        @keyframes typing {
+          from {
+            width: 0;
+          }
+          to {
+            width: 100%;
+          }
+        }
+
+        @keyframes blink {
+          from,
+          to {
+            border-color: transparent;
+          }
+          50% {
+            border-color: white;
+          }
+        }
+      `}</style>
           </p>
           <div className="flex justify-center space-x-4">
             <button className="bg-gradient-to-r bg-[#5A5662] text-white py-3 px-6 rounded-full">

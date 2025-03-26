@@ -1,6 +1,5 @@
 import React from 'react';
 import 'tailwindcss-gradients';
-import ThemeToggle from '../components/themeToggle';
 
 const Header = () => {
   return (
@@ -18,7 +17,6 @@ const Header = () => {
               <button className="rounded-md relative hover:transform hover:text-purple-700 hover:scale-105 transition-transform duration-300"><a href="/projetos">Projetos</a></button>
               <button className="rounded-md relative hover:transform hover:text-purple-700 hover:scale-105 transition-transform duration-300"><a href="/contato">Contato</a></button>
             </div>
-            <ThemeToggle />
           </div>
         </div>
       </nav>
