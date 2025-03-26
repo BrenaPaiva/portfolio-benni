@@ -27,7 +27,7 @@ const Home = () => {
             {showSecondLine && (
               <span className="fade-in font-normal"> Mas pode me chamar de Benni</span>
             )}
-            <style jsx>{`
+            <style>{`
               .fade-in {
               opacity: 0;
               animation: fadeIn 2s forwards;
@@ -43,7 +43,7 @@ const Home = () => {
               }
             `}</style>
 
-            <style jsx>{`
+            <style>{`
         .typing-effect {
           display: inline-block;
           overflow: hidden;

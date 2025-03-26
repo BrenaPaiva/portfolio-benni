@@ -1,4 +1,3 @@
-import elipse from '../assets/elipse.svg';
 import sombreado from '../assets/sombreado.svg';
 import planet from '../assets/planet.svg';
 import tasks from '../assets/tasks.svg';
