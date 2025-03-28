@@ -3,6 +3,7 @@ import Home from "./components/home"
 import AboutMe from "./components/aboutme"
 import Stacks from "./components/stacks"
 import Contact from "./components/contact"
+import Stacks2 from "./components/stacks2"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Home />
       <Stacks />
+      <Stacks2 />
       <AboutMe />
       <Contact />
     </div>

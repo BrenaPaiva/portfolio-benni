@@ -1,13 +1,11 @@
 import planet from '../assets/planet.svg';
 import quebracabeca from '../assets/quebracabeca.svg';
 import roadmap from '../assets/roadmap.svg';
-import linkedindiv from '../assets/linkedindiv.svg';
-import curriculo from '../assets/curriculo.svg';
 import duvidas from '../assets/duvidas.svg';
 
 const Stacks = () => {
   return (
-    <div className="flex justify-center h-screen bg-blue-">
+    <div className="flex justify-center h-screen w-full bg-pink">
       <div className="relative text-white text-xl sm:text-2xl font-bold flex flex-col items-center mt-10 px-4 sm:px-8">
         {/* Texto que ficará atrás da imagem e centralizado */}
         <span className="relative z-10 text-2xl sm:text-4xl text-center mt-16 sm:mt-32">
@@ -23,10 +21,6 @@ const Stacks = () => {
             <img src={roadmap} alt="" className="w-20 sm:w-64" />
             <img src={quebracabeca} alt="" className="w-20 sm:w-64" />
             <img src={duvidas} alt="" className="w-20 sm:w-64" />
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-6 mt-6">
-            <img src={linkedindiv} alt="" className="w-20 sm:w-64" />
-            <img src={curriculo} alt="" className="w-20 sm:w-64" />
           </div>
         </div>
         <div>

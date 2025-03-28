@@ -1,5 +1,4 @@
 import justgirl from '../assets/justgirl.svg';
-import img from '../assets/img.svg';
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center h-full w-full p-4">
+    <div className="flex flex-col lg:flex-row justify-center items-center h-full w-full p-4 bg-">
       <div className="flex flex-col lg:flex-row items-center justify-center w-full max-w-6xl">
         {/* Círculo centralizado */}
         <div className="bg-red- text-white w-64 h-64 lg:w-96 lg:h-96 flex items-center justify-center mb-6 lg:mb-0">

@@ -3,7 +3,7 @@ import coffee from '../assets/coffee.svg';
 
 const AboutMe = () => {
   return (
-    <div className="flex h-screen justify-center items-center bg-yellow px-4">
+    <div className="flex h-screen justify-center items-center bg-yellow px-4 bg-bl">
       <div className="relative max-w-4xl w-full h-full">
         {/* Primeira Caixa (direita) */}
         <div className="absolute top-8 left-0 w-full sm:w-max h-auto bg-gradient-to-r from-[#2A0F4A] to-[#1C273D] rounded-xl bg-opacity-90 p-4 sm:p-6 font-sans text-[#D1D5DB] shadow-md text-sm sm:text-lg">

@@ -6,7 +6,7 @@ import youtube from '../assets/youtube.svg';
 
 const Contact = () => {
   return (
-    <div className="flex justify-center items-center h-full w-full p-4 sm:p-8">
+    <div className="flex justify-center items-center h-full w-full p-4 sm:p-8 bg-yellow">
       <div className="bg-[#3b2a5e] text-white rounded-lg p-6 sm:p-8 max-w-full sm:max-w-lg w-full">
         <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center">Entre em contato</h2>
         <p className="text-sm sm:text-base mb-6 text-center">
